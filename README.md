@@ -26,27 +26,31 @@ El análisis utiliza información oficial proveniente del **Banco Central de Res
 
 # 3. Estructura del proyecto
 
+## Estructura del proyecto
+
+```text
 An-lisis-de-IPC_Subyacente---R/
 
 ├── DATOS/
-│ └── Mensuales-20260727-142811.xlsx
+│   └── Mensuales-20260727-142811.xlsx
 
 ├── FIGURAS/
-│ ├── 1. EXPLORACIÓN/
-│ │ ├── 1. Serie temporal de IPC_Subyacente.png
-│ │ └── 2. Histograma del IPC.png
-│ │
-│ └── 2. ANALISIS FINAL/
-│ ├── 1. IPC_Subyacente diferenciada.png
-│ ├── 2. ACF, PACF.png
-│ ├── 3. Diagnóstico del modelo.png
-│ └── 4. Pronóstico ARIMA (5,2,5)-24 meses.png
+│   ├── 1. EXPLORACIÓN/
+│   │   ├── 1. Serie temporal de IPC_Subyacente.png
+│   │   └── 2. Histograma del IPC.png
+│   │
+│   └── 2. ANALISIS FINAL/
+│       ├── 1. IPC_Subyacente diferenciada.png
+│       ├── 2. ACF, PACF.png
+│       ├── 3. Diagnóstico del modelo.png
+│       └── 4. Pronóstico ARIMA (5,2,5)-24 meses.png
 
 ├── GUIONES/
-│ ├── 1. Exploración.R
-│ └── 2. Análisis final.R
+│   ├── 1. Exploración.R
+│   └── 2. Análisis final.R
 
 └── LÉAME.md
+```
 
 
 ---
